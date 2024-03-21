@@ -4,6 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .orange-text {
+        color: #fa4a0c;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 20px;
+        margin-bottom: 10px;
+      }
+      .black-text {
+        color: #252b42;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        padding: 20px;
+        line-height: 57px;
+      }
+      .grey-text {
+        color: #737373;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 20px;
+      }
+    </style>
     <link rel="stylesheet" href="./assets/styles/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +41,11 @@
       <nav class="bg-white">
         <div class="flex justify-between items-center p-6">
           <div class="w-[104px]">
-            <img
-              src="./assets/images/logo.png"
-              class="w-full h-full object-cover"
-            />
+            <img src="./assets/images/logo.png" class="w-full h-full object-cover" />
           </div>
           <div>
             <button type="button">
-              <img
-                src="./assets/images/menu.svg"
-                class="w-[20px] h-[20px] object-cover"
-              />
+              <img src="./assets/images/menu.svg" class="w-[20px] h-[20px] object-cover" />
             </button>
           </div>
         </div>
@@ -36,17 +55,24 @@
       <!-- hero -->
       <section
         id="hero"
-        class="bg-gray-100 min-h-[20rem] flex justify-center items-center"
+        class="min-h-[20rem] flex flex-col justify-center items-center"
       >
-        <h1>Hero</h1>
+        <!-- <div id="first-hero"> -->
+        <img src="/src/assets/images/img_hero.png" alt="hero" />
+        <h2 class="text-2xl font-semibold mb-[49px]">How the app works</h2>
+        <hr class="border-[2px] border-[#E4E4E4] w-full" />
+        <!-- </div> -->
+        <!-- <h1>Hero</h1> -->
       </section>
       <!-- /hero -->
 
-      <section
-        id="account"
-        class="bg-white min-h-[20rem] flex justify-center items-center"
-      >
-        <h1>Account</h1>
+      <section id="account" class="bg-white min-h-[20rem] flex flex-col text-center justify-center items-center">
+        <div class="container border">
+          <h1 class="orange-text">Create an Account</h1>
+          <div class="black-text">Create/login to an existing account to get started</div>
+          <p class="grey-text">An account is created with your email and a desired password</p>
+          <img src="assets/images/img_hero2.png" alt="" class="" />
+        </div>
       </section>
 
       <section id="explore" class="flex flex-col bg-gray-100 min-h-[20rem] flex justify-center items-center font-['montserrat']">
@@ -61,32 +87,24 @@
       </section>
 
       <section
-        id="checkout"npm install -D tailwindcss
-
-        class="bg-gray-50 min-h-[20rem] flex justify-center items-center"
+        id="checkout"
+        class="bg-gray-50 min-h-[20rem] text-center px-[20px] py-5 md:py-16"
       >
-        <h1>Checkout</h1>
+        <h1 class="font-bold text-[#FA4A0C] pt-5">Checkout</h1>
+        <h1 class="font-bold text-[40px] font-[700px] leading-[57px] py-10">When you done check out and get it delivered.</h1>
+        <p class="text-[24px] text-[#737373] pb-5">When you done check out and get it 
+          delivered with ease.</p>
+        <img src="assets/images/checkout.png" alt="">
       </section>
 
       <!-- footer -->
       <footer class="">
-        <div
-          class="bg-dark text-center flex flex-col gap-6 px-5 py-28 text-white"
-        >
+        <div class="bg-dark text-center flex flex-col gap-6 px-5 py-28 text-white">
           <h1 class="text-3xl e">Download the app now.</h1>
-          <p>
-            Available on your favorite store. Start your premium experience now
-          </p>
+          <p>Available on your favorite store. Start your premium experience now</p>
           <div class="flex justify-center items-center gap-3">
-            <button type="button" class="bg-primary px-8 py-4 rounded-xl">
-              Buy Now
-            </button>
-            <button
-              type="button"
-              class="bg-transparent px-8 py-4 border border-white rounded-xl"
-            >
-              Try for free
-            </button>
+            <button type="button" class="bg-primary px-8 py-4 rounded-xl">Buy Now</button>
+            <button type="button" class="bg-transparent px-8 py-4 border border-white rounded-xl">Try for free</button>
           </div>
         </div>
         <div class="flex justify-center items-center gap-3 py-6">
