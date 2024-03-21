@@ -578,6 +578,10 @@ video {
   }
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -708,6 +712,11 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-\[\#FA4A0C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 74 12 / var(--tw-bg-opacity));
 }
 
 .bg-dark {
