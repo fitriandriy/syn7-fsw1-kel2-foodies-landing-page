@@ -4,35 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .orange-text {
-        color: #fa4a0c;
-        font-family: "Montserrat", sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        padding-top: 20px;
-        margin-bottom: 10px;
-      }
-      .black-text {
-        color: #252b42;
-        font-family: "Montserrat", sans-serif;
-        font-size: 40px;
-        font-weight: 700;
-        padding: 20px;
-        line-height: 57px;
-      }
-      .grey-text {
-        color: #737373;
-        font-family: "Montserrat", sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        padding: 20px;
-      }
-    </style>
+
     <link rel="stylesheet" href="./assets/styles/output.css" />
   </head>
   <body class="bg-gray-50">
-    <div class="min-h-[100vh] bg-white mx-auto max-w-lg">
+    <div class="min-h-[100vh] bg-white mx-auto">
       <!-- navbar -->
       <nav class="bg-white">
         <div class="flex justify-between items-center p-6">
@@ -54,14 +30,20 @@
       </section>
       <!-- /hero -->
 
-      <section id="account" class="bg-white min-h-[20rem] flex flex-col text-center justify-center items-center">
-        <div class="container border">
-          <h1 class="orange-text">Create an Account</h1>
-          <div class="black-text">Create/login to an existing account to get started</div>
-          <p class="grey-text">An account is created with your email and a desired password</p>
-          <img src="assets/images/img_hero2.png" alt="" class="" />
+      <!-- account -->
+      <section id="account" class="bg-white min-h-[20rem] flex justify-center items-center mt-10">
+        <div class="container w-full lg:flex lg:flex-row-reverse justify-center items-center text-center lg:text-start">
+          <div class="container lg:w-1/2">
+            <h1 class="text-2xl font-bold text-orange-600 mx-5">Create an Account</h1>
+            <div class="mt-4 font-bold text-4xl mx-5">Create/login to an existing account to get started</div>
+            <p class="mt-4 text-neutral-500 mx-5 font-medium">An account is created with your email and a desired password</p>
+          </div>
+          <div class="container lg:w-1/2">
+            <img src="assets/images/img_hero2.png" alt="" class="ml-11" />
+          </div>
         </div>
       </section>
+      <!-- /account -->
 
       <section id="explore" class="bg-gray-100 min-h-[20rem] flex justify-center items-center">
         <h1>Explore</h1>
