@@ -19,10 +19,7 @@
       <nav class="bg-white">
         <div class="flex items-center justify-between p-6 md:px-16">
           <div class="w-[104px]">
-            <img
-              src="./assets/images/logo.png"
-              class="object-cover w-full h-full"
-            />
+            <img src="./assets/images/logo.png" class="object-cover w-full h-full"/>
           </div>
           <div>
             <ol class="hidden md:flex gap-20 font-semibold text-[20px]">
@@ -32,10 +29,7 @@
               <li><a href="">Contact</a></li>
             </ol>
             <button type="button" class="md:hidden">
-              <img
-                src="./assets/images/menu.svg"
-                class="w-[20px] h-[20px] object-cover"
-              />
+              <img src="./assets/images/menu.svg" class="w-[20px] h-[20px] object-cover"/>
             </button>
           </div>
         </div>
@@ -43,65 +37,39 @@
       <!-- /navbar -->
 
       <!-- hero -->
-      <section id="hero" class="min-h-[20rem] text-center pt-10">
+      <section id="hero" class="md:bg-[url('assets/images/jumbotron.jpeg')] bg-cover md:h-[550px] md:mb-[400px] min-h-[20rem] text-center md:text-white pt-10">
         <p class="font-semibold text-[#737373]">Food App</p>
-        <h1 class="font-bold text-[40px] leading-[57px] pb-5">
-          Why stay hungry when you can order form Bella Onojie
-        </h1>
-        <p class="text-[26px] text-[#737373] pb-5">
-          Download the bella onoje’s food app now on
-        </p>
+        <h1 class="font-bold text-[40px] md:text-[58px] leading-[57px] pb-5">Why stay hungry when <br> you can order form Bella Onojie</h1>
+        <p class="text-[26px] text-[#737373] md:text-white pb-5 md:py-5">Download the bella onoje’s food app now on</p>
         <div>
-          <button
-            class="bg-primary rounded-full w-[200px] py-3 text-white font-bold text-[24px]"
-          >
-            Playstore
-          </button>
-          <br />
-          <button
-            class="bg-none border border-[#FA4A0C] rounded-full w-[200px] py-3 text-[#FA4A0C] font-bold text-[24px] mt-5 mb-10"
-          >
-            App Store
-          </button>
+          <button class="bg-primary rounded-full w-[200px] py-3 md:mr-10 text-white font-bold text-[24px]">Playstore</button>
+          <br class="md:hidden"/>
+          <button class="bg-none border border-[#FA4A0C] md:border-white rounded-full w-[200px] py-3 text-[#FA4A0C] md:text-white font-bold text-[24px] mt-5 mb-10">App Store</button>
         </div>
         <img src="/src/assets/images/img_hero.png" class="m-auto" alt="hero" />
-        <h2 class="text-2xl font-semibold mb-[30px]">How the app works</h2>
-        <hr class="border-[1px] border-[#E4E4E4] w-full" />
       </section>
       <!-- /hero -->
 
       <!-- account -->
-      <section id="account" class="bg-white min-h-[20rem] flex justify-center items-center mt-10">
-        <div class="container w-full lg:flex lg:flex-row-reverse justify-center items-center text-center lg:text-start">
-          <div class="container lg:w-1/2">
-            <h1 class="text-2xl font-bold text-orange-600 mx-5">Create an Account</h1>
-            <div class="mt-4 font-bold text-4xl mx-5">Create/login to an existing account to get started</div>
-            <p class="mt-4 text-neutral-500 mx-5 font-medium">An account is created with your email and a desired password</p>
-          </div>
-          <div class="container lg:w-1/2">
-            <img src="assets/images/img_hero2.png" alt="" class="ml-11" />
-          </div>
+      <hr class="border-[1px] border-[#E4E4E4] w-[500px] m-auto mb-[30px]" />
+      <h2 class="text-2xl font-semibold mb-[60px] text-center">How the app works</h2>
+      <section id="account" class="md:flex justify-center items-center lg:gap-20 flex-row-reverse bg-white min-h-[20rem] text-center px-[20px] pb-20 md:py-16">
+        <div class="md:w-[568px] md:text-left">
+          <h1 class="text-[#FA4A0C] text-2xl font-bold">Create an Account</h1>
+          <div class="font-bold text-[40px] leading-[57px] py-7">Create/login to an existing account to get started</div>
+          <p class="text-[#737373] text-2xl pb-5">An account is created with your email and a desired password</p>
         </div>
+        <img src="assets/images/img_hero2.png" class="md:w-[350px]" alt="" />
       </section>
-      <!-- /account -->
 
       <!-- explore -->
-      <section
-        id="explore"
-        class="md:flex justify-center items-center lg:gap-20 bg-white min-h-[20rem] text-center px-[20px] pb-20 md:py-16"
-      >
-        <div class="flex flex-col container w-[568px] md:text-left ">
-            <h3 class="orange-text pl-5">
-              Explore while shopping
-            </h3>
-            <h2 class="black-text">
-              Shop for your favorites meal as e dey hot.
-            </h2>
-            <h4 class="grey-text">
-              Shop for your favorite meals or drinks and enjoy while doing it.
-            </h4>
+      <section id="explore" class="md:flex justify-center items-center md:pl-20 bg-white min-h-[20rem] text-center px-[20px] pb-20 md:py-16">
+        <div class="md:w-[568px] md:text-left">
+          <h3 class="text-[#FA4A0C] text-2xl font-bold">Explore while shopping</h3>
+          <h2 class="font-bold text-[40px] leading-[57px] py-7">Shop for your favorites meal as e dey hot.</h2>
+          <h4 class="text-[#737373] text-2xl pb-5">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
         </div>
-        <img src="/src/assets/images/recExplore.png" alt="" class="md:w-[350px] flex justify-center items-center" />
+        <img src="/src/assets/images/recExplore.png" alt="" class="md:w-[350px]" />
       </section>
 
       <!-- checkout -->
@@ -115,30 +83,23 @@
       </section>
 
       <!-- footer -->
-      <footer class="">
-        <div
-          class="flex flex-col gap-6 px-5 text-center text-white bg-dark py-28"
-        >
-          <h1 class="text-3xl e">Download the app now.</h1>
-          <p>
-            Available on your favorite store. Start your premium experience now
-          </p>
+      <footer>
+        <div class="flex flex-col gap-6 px-5 text-center text-white bg-dark py-28 md:bg-[url('assets/images/footer-c.jpeg')]">
+          <h1 class="text-3xl md:text-[40px] md:font-semibold">Download the app now.</h1>
+          <p class="text-[24px]">Available on your favorite store. Start your premium experience now</p>
           <div class="flex items-center justify-center gap-3">
-            <button type="button" class="bg-[#FA4A0C] px-8 py-4 rounded-xl">
-              Buy Now
-            </button>
-            <button
-              type="button"
-              class="px-8 py-4 bg-transparent border border-white rounded-xl"
-            >
-              Try for free
-            </button>
+            <button type="button" class="bg-[#FA4A0C] px-8 py-4 rounded-xl">Buy Now</button>
+            <button type="button" class="px-8 py-4 bg-transparent border border-white rounded-xl">Try for free</button>
           </div>
         </div>
-        <div class="flex items-center justify-center gap-3 py-6">
-          <div class="w-10 h-10 bg-primary"></div>
-          <div class="w-10 h-10 bg-primary"></div>
-          <div class="w-10 h-10 bg-primary"></div>
+        <div class="flex justify-between items-center px-5 lg:px-20">
+          <img class="hidden md:block h-[50px] md:h-[70px]" src="/src/assets/images/logo.png" alt="">
+          <div class="flex w-full md:w-[250px] items-center gap-3 lg:gap-7 justify-center py-6">
+            <div class="w-10 h-10"><img src="/src//assets/images/twitter.png" alt=""></div>
+            <div class="w-10 h-10"><img src="/src//assets/images/fb.png" alt=""></div>
+            <div class="w-10 h-10"><img src="/src//assets/images/ig.png" alt=""></div>
+          </div>
+          <p class="hidden md:block">Copywright 2020 Bella Onojie.com</p>
         </div>
       </footer>
       <!-- /footer -->
